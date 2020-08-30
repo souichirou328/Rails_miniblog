@@ -1,14 +1,92 @@
 header.header {
   height: 230px;
-  background-color: #FAEBD7;
+  background-color: white;
 }
 
 .grid-6 {
   font-size:55px;
   text-align:center;
-  padding-top: 15px;
+  padding-top: 40px;
+  height: 150px;
+}
+
+h1 a {
+  color: #444444;
+}
+
+.user_nav {
+  background-color: #444444;
+  height: 85px;
 }
 
 a {
   text-decoration: none;
+}
+
+a.post {
+  float: right;
+  font-size: 30px;
+  margin: 22px 150px 0 0;
+  color: white;
+}
+
+.contents {
+  text-align:center;
+
+}
+
+.contents_new {
+  padding: 16px 8px;
+  margin:40px auto;
+  color: #FFF;
+  background:#FFF ;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  height: 550px;
+  width: 800px;
+
+}
+
+h3 {
+  color: #444444;
+  text-align:center;
+  font-size:25px;
+}
+
+input[name="name"] {
+  padding: 0.5em 1em;
+  margin: 10px 36px;
+  font-weight: bold;
+  border: solid 2px #AAAAAA;
+  width: 90%;
+  border-radius:5px;
+}
+
+input[name="image"] {
+  padding: 0.5em 1em;
+  margin: 10px 36px;
+  font-weight: bold;
+  border: solid 2px #AAAAAA;
+  width: 90%;
+  border-radius:5px;
+}
+
+textarea[name="text"] {
+  padding: 0.5em 1em;
+  margin: 10px 36px;
+  font-weight: bold;
+  border: solid 2px #AAAAAA;
+  width: 90%;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color:#444444;
+  padding: 0.5em 1em;
+  margin: 10px 36px;
+  font-weight: bold;
+  border: solid 2px #AAAAAA;
+  width: 90%;
+  border-radius:5px;
+  color: ;
 }
