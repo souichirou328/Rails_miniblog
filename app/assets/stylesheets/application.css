@@ -44,7 +44,6 @@ a.post {
   border-radius: 9px;
   height: 550px;
   width: 800px;
-
 }
 
 h3 {
@@ -53,16 +52,7 @@ h3 {
   font-size:25px;
 }
 
-input[name="name"] {
-  padding: 0.5em 1em;
-  margin: 10px 36px;
-  font-weight: bold;
-  border: solid 2px #AAAAAA;
-  width: 90%;
-  border-radius:5px;
-}
-
-input[name="image"] {
+input {
   padding: 0.5em 1em;
   margin: 10px 36px;
   font-weight: bold;
@@ -88,5 +78,16 @@ input[type="submit"] {
   border: solid 2px #AAAAAA;
   width: 90%;
   border-radius:5px;
-  color: ;
+}
+
+.content_post {
+  height: 400px;
+  width: 650px;
+  margin: 30px auto;
+  background-size: cover;
+}
+
+footer {
+  text-align:center;
+  margin: 100px;
 }
