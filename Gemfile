@@ -69,3 +69,4 @@ gem 'hirb-unicode'
 
 gem 'ruby-debug-ide'
 gem 'debase'
+gem 'devise'
