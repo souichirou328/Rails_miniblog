@@ -1,0 +1,11 @@
+<div class = "contents row">
+  <p class="show_name"><%= @nickname %>さんの投稿一覧</p>
+  <% @tweets.each do |tweet| %>
+    <div class="content_post" style="background-image: url(<%= tweet.image %>);">
+      <div class="text__name">
+        <%= simple_format(tweet.text) %>
+        <span class="name"><%= tweet.name %></span>
+      </div>
+    </div>
+  <% end%>
+</div>
