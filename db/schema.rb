@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_19_120155) do
+ActiveRecord::Schema.define(version: 2020_09_20_082128) do
 
   create_table "posts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "video"
@@ -19,7 +19,6 @@ ActiveRecord::Schema.define(version: 2020_09_19_120155) do
   end
 
   create_table "tweets", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "name"
     t.text "text"
     t.text "image"
     t.datetime "created_at"
