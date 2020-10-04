@@ -1,10 +1,12 @@
 <div class="contents_new">
-  <%= form_tag('/tweets', method: :post) do %>
-    <h3>
-      ツイートする
-    </h3>
-    <input type="text" name="image" placeholder="Image Url">
-    <input type="text" name="text" placeholder="Single Word">
-    <input type="submit" value="SEND">
-  <% end %>
+  <div class="cmnt">
+    <%= form_tag('/tweets', method: :post) do %>
+      <h3>
+        ツイートする
+      </h3>
+      <input type="text" name="image" placeholder="Image Url">
+      <input type="text" name="text" placeholder="Single Word">
+      <input id="tweet_btn" type="submit" value="SEND">
+    <% end %>
+  </div>
 </div>

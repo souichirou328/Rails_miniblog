@@ -32,7 +32,7 @@ h1 a {
 .user_nav a {
   float: right;
   font-size: 30px;
-  margin: 15px 150px 0 0;
+  margin: 15px 100px 0 0;
   color: white;
 }
 
@@ -51,7 +51,7 @@ h1 a {
 .current_name {
   float: right;
   font-size: 30px;
-  margin: 15px 100px 0 0;
+  margin: 15px 130px 0 0;
   color: white;
 }
 
@@ -60,9 +60,47 @@ h1 a {
   top: 20px;
   right: 30px;
   z-index: 2;
-  height: 100px;
   width: 80px;
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0 0 2px #000;
+}
+
+.more a {
+  color:#DDDDDD	;
+}
+
+.arrow {
+  position: absolute;
+  right: 235px;
+  top:145px;
+}
+
+.select {
+  list-style-type: none;
+}
+
+.select li {
+  width: 20%;
+  float: right;
+  text-align: center;
+  margin-right:40px;
+}
+
+.select li a {
+  display: block;
+  margin: 0;
+  padding: 13px 0;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.select li:hover > a{
+  color: #444444;
+  font-size:30px;
 }
 
 .grid {
@@ -85,19 +123,20 @@ a {
   background:#FFF ;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  height: 450px;
-  width: 800px;
+  height: 350px;
+  width: 650px;
 }
 
 h3 {
   color: #444444;
   text-align:center;
   font-size:25px;
+  margin:20px 0 15px 0;
 }
 
 input {
   padding: 0.5em 1em;
-  margin: 10px 36px;
+  margin: 10px 30px;
   font-weight: bold;
   border: solid 2px #AAAAAA;
   width: 90%;
@@ -105,13 +144,52 @@ input {
   height: 50px;
 }
 
-input[type="submit"] {
+input#user_remember_me {
+  height:30px
+}
+
+input#user_email {
+  width:60%;
+  text-align:center;
+  margin:5px;
+}
+
+input#user_password {
+  width:60%;
+  text-align:center;
+  margin:5px;
+}
+
+input[name="commit"] {
+  width:60%;
+  text-align:center;
+  margin:5px;
+  background-color:;
+}
+
+input[name="text"] {
+  width: 90%;
+}
+
+input#user_nickname {
+  width:60%;
+  text-align:center;
+  margin:5px;
+}
+
+input#user_password_confirmation {
+  width:60%;
+  text-align:center;
+  margin:10px;
+}
+
+input#tweet_btn {
   background-color:#444444;
   padding: 0.5em 1em;
-  margin: 30px 140px;
+  margin: 30px 110px;
   font-weight: bold;
   border: solid 2px #AAAAAA;
-  width: 500px;
+  width: 65%;
   border-radius:5px;
   text-align:center;
   color: white;
@@ -143,10 +221,10 @@ input[type="submit"] {
 .name a {
   color: white;
   position: absolute;
-  right:40px;
+  right:60px;
   bottom: 30px;
   z-index: 2;
-  font-size: 20px;
+  font-size: 17px;
   text-shadow: 0 0 2px #000, 0 0 1px #000, 0 0 1px #000;
 }
 
@@ -170,8 +248,8 @@ input[type="submit"] {
   background:#FFF ;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  height: 600px;
-  width: 800px;
+  height: 500px;
+  width: 750px;
   text-align: center;
 }
 
@@ -185,6 +263,42 @@ input[type="submit"] {
   margin-top: 35px;
 }
 
+input#comment_sp {
+  width: 90%;
+  margin-top:40px;
+}
+
+input#submit_btn {
+  background-color:#444444;
+  padding: 0.5em 1em;
+  margin: 25px 110px;
+  font-weight: bold;
+  border: solid 2px #AAAAAA;
+  width: 65%;
+  border-radius:5px;
+  text-align:center;
+  color: white;
+}
+
+.comment {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  width: 650px;
+  margin: auto;
+}
+
+.comment h4 {
+  font-size:18px;
+}
+
+.comments p {
+  color:#444444;
+  margin-bottom:5px;
+}
+
+.comments a {
+  color:#444444;
+}
 
 .pagination {
   color: red;

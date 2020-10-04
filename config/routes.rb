@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :posts
   devise_for :users
   root 'tweets#index'
-  get 'tweets' => 'tweets#index'
-  get 'tweets/new' => 'tweets#new'
-  post 'tweets' => 'tweets#create'
-  delete  'tweets/:id'  => 'tweets#destroy'
-  get 'users/:id' => 'users#show'
+  resources :tweets do
+    resources :comments, only: [:create]
+  end
+  resources :users, only: [:show]
 end
