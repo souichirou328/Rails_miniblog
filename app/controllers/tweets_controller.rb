@@ -22,7 +22,7 @@ class TweetsController < ApplicationController
     @tweet = Tweet.find(params[:id])
   end
 
-  def updata
+  def update
     tweet = Tweet.find(params[:id])
     if tweet.user_id == current_user.id
       tweet.update(tweet_params)
