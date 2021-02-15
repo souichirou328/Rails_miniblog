@@ -21,7 +21,7 @@ header.header {
 
 h1 a {
   color: #444444;
-  font-family: 'Unica One', "Avenir", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W6", "HIragino Kaku Gothic Pro W6", "HIragino Kaku Gothic Pro", Osaka, Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+  font-size: 50px;
 }
 
 .user_nav {
@@ -164,7 +164,6 @@ input[name="commit"] {
   width:60%;
   text-align:center;
   margin:5px;
-  background-color:;
 }
 
 input[name="text"] {

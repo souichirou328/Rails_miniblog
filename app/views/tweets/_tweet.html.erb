@@ -9,7 +9,7 @@
   <%= simple_format(tweet.text, class: "word") %>
   <span class="name">
     <a href="/users/<%= tweet.user_id %>">
-      <span>投稿者</span><%= tweet.user.nickname %>
+      <span>投稿者</span><br><%= tweet.user.nickname %>
     </a>
   </span>
 </div>
